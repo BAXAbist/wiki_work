@@ -1,0 +1,15 @@
+webpackHotUpdate("ui-extra",{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/pug-plain-loader/index.js!./node_modules/vue-loader/lib/index.js?!./client/components/common/social-sharing.vue?vue&type=template&id=2248760d&lang=pug&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/vue-loader/lib??vue-loader-options!./client/components/common/social-sharing.vue?vue&type=template&id=2248760d&lang=pug& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"v-list\",\n    { attrs: { nav: \"\", dense: \"\" } },\n    [\n      _c(\n        \"v-list-item\",\n        { ref: \"copyUrlButton\", on: { click: function($event) {} } },\n        [\n          _c(\"v-icon\", { attrs: { color: \"grey\", small: \"\" } }, [\n            _vm._v(\"mdi-content-copy\")\n          ]),\n          _c(\"v-list-item-title\", { staticClass: \"px-3\" }, [\n            _vm._v(\"Скопировать ссылку\")\n          ])\n        ],\n        1\n      ),\n      _c(\n        \"v-list-item\",\n        {\n          attrs: {\n            href:\n              \"mailto:?subject=\" +\n              encodeURIComponent(_vm.title) +\n              \"&body=\" +\n              encodeURIComponent(_vm.url) +\n              \"%0D%0A%0D%0A\" +\n              encodeURIComponent(_vm.description)\n          }\n        },\n        [\n          _c(\"v-icon\", { attrs: { color: \"grey\", small: \"\" } }, [\n            _vm._v(\"mdi-email-outline\")\n          ]),\n          _c(\"v-list-item-title\", { staticClass: \"px-3\" }, [\n            _vm._v(\"Отправить на почту\")\n          ])\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./client/components/common/social-sharing.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ })
+
+})
